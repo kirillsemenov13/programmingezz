@@ -1,3 +1,4 @@
+// тестировочный комментарий 6767
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
     for (i = 0; i < n - 1; i++) {
