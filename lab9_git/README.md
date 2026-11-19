@@ -57,6 +57,13 @@
 ### 13-15. Идем в mybranch, где file2.txt? Смотрим разницу
 ![alt text](image-16.png)
 ![alt text](image-17.png)
+
 как видим, file2.txt пропал, так как он находится только в ветке main
 ![alt text](image-18.png)
 с помощью команды git diff мы увидели, что в ветке main есть file2.txt, а в ветке mybranch есть file.txt
+### 16-17. Добавляем в mybranch, убеждаемся что две ветки
+![alt text](image-19.png)
+сначала не показывало текст лабы, пришлось исправить и сохранять второй раз, но все получилось!
+![alt text](image-20.png)
+![alt text](image-21.png)
+как видим, 2 ветки есть и запушил изменения в main
