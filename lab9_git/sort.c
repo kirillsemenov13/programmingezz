@@ -1,4 +1,5 @@
-// тестировочный комментарий 6767
+#include <stdio.h>
+
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
     for (i = 0; i < n - 1; i++) {
@@ -10,4 +11,11 @@ void bubbleSort(int arr[], int n) {
             }
         }
     }
+}
+
+int main() {
+    int a[] = {4, 2};
+    int n = sizeof(a) / sizeof(a[0]);
+    bubbleSort(a, n);
+    return 0;
 }
